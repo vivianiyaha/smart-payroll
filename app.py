@@ -40,7 +40,7 @@ def render_sidebar():
             )
 
         st.markdown(
-            f'<div class="sidebar-company">{settings["company_name"]}</div>',
+            f'<div class="sidebar-company">{settings["Cardstel Solutions Limited"]}</div>',
             unsafe_allow_html=True,
         )
         st.markdown("---")
@@ -59,7 +59,7 @@ def render_sidebar():
         )
         st.markdown("---")
         st.markdown(
-            '<div class="sidebar-footer">© 2025 Smart Payroll</div>',
+            '<div class="sidebar-footer">© 2026 Smart Payroll</div>',
             unsafe_allow_html=True,
         )
     return menu
